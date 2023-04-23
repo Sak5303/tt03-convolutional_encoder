@@ -83,9 +83,8 @@ documentation:
        -sw2:1       1111                     
 
 # A description of what the outputs do
-  outputs: output bitstream (|| indicates change s0 s1 to next state, 
-  turn the clock on and turn off, to realize the next state of x1 x2)
-      x1 x2   ||  x1 x2 ||    x1 x2   ||  x1 x2 ||     x1 x2    ||  x1 x2   ||  x1 x2
+  outputs: output bitstream (|| indicates change s0 s1 to next state,  turn the clock on and turn off, to realize the next state of x1 x2)
+    -x1 x2   ||  x1 x2 ||    x1 x2   ||  x1 x2 ||     x1 x2    ||  x1 x2   ||  x1 x2
     - 00          00          00           00           00            00          00
     - 11          10          11           00           00            00          00           
     - 00          11          10           11           00            00          00
